@@ -20,10 +20,9 @@
   jQuery.fn.scramble = function() {
     if (this.length < 2) return this.pushStack(this);
     var free = new Array(),
-        scrambled = new Array(),
-        len = this.length - 1;
-    for (var i = len; i >= 0; i--) free.push(this[i]);
-    for (var i = len; i >= 0; i--)
+        scrambled = new Array();
+    for (var i = this.length - 1; i >= 0; i--) free.push(this[i]);
+    for (var i = this.length; i > 0; i--)
       scrambled.push(free.splice(parseInt(Math.random() * i), 1)[0]);
     return this.pushStack(scrambled);
   };
