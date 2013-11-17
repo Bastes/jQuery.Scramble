@@ -1,0 +1,25 @@
+{
+  "name": "scramble",
+  "title": "jQuery Scramble",
+  "description": "jQuery plugin that scrambles a collection, randomizing its order.",
+  "keywords": [
+    "scramble"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Michel Belleville",
+    "url": "https://github.com/Bastes/jQuery.Scramble"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "https://github.com/Bastes/jQuery.Scramble/blob/1.0.0/GPLv3-LICENSE.txt"
+    }
+  ],
+  "bugs": "https://github.com/Bastes/jQuery.Scramble/issues",
+  "homepage": "https://github.com/Bastes/jQuery.Scramble",
+  "docs": "https://github.com/Bastes/jQuery.Scramble",
+  "dependencies": {
+    "jquery": ">=1.3.4"
+  }
+}
